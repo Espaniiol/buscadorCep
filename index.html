@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='node_modules/@fortawesome/fontawesome-free/css/all.css'>
+</head>
+<body>
+<main class="container">
+    <h1>Consulta de Endereço</h1>
+    <label for="cep">Digite Cep:</label>
+    <input type="text" id="cep">
+    <button id="consultar">Consultar</button>
+    <div id="resultados"></div>
+</main>
+
+<button id="modo-noturno" class="lampada">
+    <i class="fas fa-lightbulb"></i>
+</button>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/js-cookie/dist/js.cookie.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

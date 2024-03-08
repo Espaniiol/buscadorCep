@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+  background-color: rgb(255, 153, 0);
+  color:white;
+}
+
+.container{
+    text-align: center;
+    background-color: rgb(255, 145, 0);
+    padding: 20px;
+    border-radius: 10px;  
+    box-shadow: 0px 0px 10px #ff5e00;
+    color: rgb(58, 39, 39);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultados{
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container #consultar {
+  width: 98px;
+  padding: 10px 10px;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container #consultar:hover {
+  background-color: #ff7043;
+}
+
+.container #input{
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+input {
+  width: 150;
+  padding: 9px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 16px;
+  background-color: #ff7043;
+  border-radius: 10px;
+  font-size:  16px;
+  color: white;
+}
+
+#modo-noturno{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+
+}
+#modo-noturno :hover{
+  color: #252424;
+}
+
+.dark-mode{
+  background-color: rgb(44, 42, 42);
+  color: #fff;
+}
