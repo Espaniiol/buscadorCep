@@ -19,6 +19,11 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container.dark-mode{
+  background-color: #9b9595;
+  
+}
+
 #resultados{
   text-align: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -73,10 +78,19 @@ input {
 
 }
 #modo-noturno :hover{
-  color: #252424;
+  color: #686363;
 }
 
 .dark-mode{
-  background-color: rgb(44, 42, 42);
-  color: #fff;
+  background-color: rgb(95, 93, 93);
+  color: rgb(107, 104, 104)000;
+}
+
+.lampada{
+  transition-duration: 1s;
+}
+
+.lampada.apagada{
+  transform: rotate(90deg);
+  color: #000000;
 }

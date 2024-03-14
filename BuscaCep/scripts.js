@@ -35,6 +35,12 @@
     
     $('body').on('click','#modo-noturno',function(){
         $('body').toggleClass('dark-mode');
+        $('body').find('.container').toggleClass('dark-mode');
+        $(this).toggleClass('apagada');
     });
+
+    $('body').on('input','#cep', function(){
+      alert($(this).val())
+    })
 
   });
